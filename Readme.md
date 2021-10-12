@@ -2,7 +2,7 @@
 
 This archive was created along the work described in detail in
 
-*M. Schnappinger, S. Zachau, A. Fietzke, and A. Pretschner, "A Preliminary Study on Using Text- andImage-Based Machine Learning to PredictSoftware Maintainability", Software Quality Days Conference (SWQD), 2022*
+*M. Schnappinger, S. Zachau, A. Fietzke, and A. Pretschner, "A Preliminary Study on Using Text- and Image-Based Machine Learning to Predict Software Maintainability", Software Quality Days Conference (SWQD), 2022*
 
 # Modules
 
