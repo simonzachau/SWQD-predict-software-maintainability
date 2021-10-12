@@ -112,7 +112,7 @@ Approaches based on Convolutional Neural Networks can be added as follows.
 2. Adjust the duplicate to fit your needs by setting a title, image size, and defining the layers.
 3. Import the class in the module `main` and add `run_approaches_other(dataset, dimension, YOURAPPROACH(), 'image_path', frac_training, frac_test)` at the bottom with `YOURAPPROACH` being the class name.
 
-### Aggregate evaluations of More Runs
+### Aggregate Evaluations of More Runs
 
 Currently the file `logs_to_thesis-formatter`, which aggregates the evaluations saved as log files in the `logs` folder, is only capable of handling 2 runs. Adjust the function `calc_value_average` to let it handle more and adjust the `directory` variable according to your setup.
 
