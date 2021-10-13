@@ -45,7 +45,17 @@ pip install numpy pandas tensorflow torch transformers Keras scikit-learn scikit
 
 3. Set up dataset
 
-We use the [Software Maintainability Dataset](https://figshare.com/articles/dataset/_/12801215/3) and reference the directory locally as `dataset`. Check *How to Extend the Setup > Add to Dataset* in this Readme for more details.
+We use the [Software Maintainability Dataset](https://figshare.com/articles/dataset/_/12801215/3) and reference the directory locally as `dataset`. Check *How to Extend the Setup > Add to Dataset* in this Readme for more details. The resulting directory looks like this:
+
+```
+├── dataset
+│  ├── aoi
+│  ├── argoUML
+│  ├── ...
+│  └── labels.csv
+├── source_code
+└── ...
+```
 
 ## Run
 
@@ -69,7 +79,20 @@ Results are saved in the `logs` folder.
 
 For any approach:
 
-1. Add the code folders and the `.csv` label file to the `dataset` folder.
+1. Add the code folders and the `.csv` label file to the `dataset` folder. The resulting directory looks like this:
+
+```
+├── dataset
+│  ├── aoi
+│  ├── argoUML
+│  ├── ...
+│  ├── another_code_folder_1
+│  ├── ...
+│  ├── labels.csv
+│  └── labels_for_other_code_folders.csv
+├── source_code
+└── ...
+```
 
 2. Add the `.csv` label file to the dataset initialization in the program flow in the `main` module. Make sure that the delimiter is a semicolon and not a comma to ensure cross-platform compatibility (commas are already used in the scores).
 
