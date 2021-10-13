@@ -132,4 +132,4 @@ The following interpretations are available:
 | ----------- | ----------- |
 | `dimensions_highest_probability_class` | Take the argmax of the Likert scale ratings, thus resulting in 4 possible discrete classes (strongly agree, weakly agree, weakly disagree, strongly disagree) => the dataset is very imbalanced |
 | `dimensions_highest_probability_class_simplified` | Binary approach to cope with imbalance: the 3 least represented classes are merged into 1 class, such that the result are 2 discrete classes (agree, disagree) that are roughly balanced |
-| `dimensions_classes_expectation_value` | Calculate the expectation value of the given probabilites for the Likert scale ratings |
+| `dimensions_classes_expectation_value` | Calculate the expectation value of the given probabilities for the Likert scale ratings |
